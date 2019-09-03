@@ -265,7 +265,7 @@ const printCards = (cardData) => {
     for (let i = 0; i < cardData.length; i++) {
         domString += `
         <div class="card">
-            <h2>${cardData[i].name}</h2>
+            <h2 class="cardh2">${cardData[i].name}</h2>
             <img src=${cardData[i].imageUrl} alt='Image of ${cardData[i]['type']}' />
             <h3>${cardData[i].color}</h3>
             <h3>Special Skill: ${cardData[i]['specialSkill']}</h3>
