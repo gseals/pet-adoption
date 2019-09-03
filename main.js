@@ -256,10 +256,28 @@ const petData = [
     }
   ];
 
+
+// //applying js to css regarding pet type color
+// const stylingName = (dataIncoming) =>{
+//   for(let i =0; i<dataIncoming.length; i++){
+//     if (dataIncoming[i].type === "dog") {
+//     dataIncoming[i].style.backgroundColor = "green";
+//   } else if (dataIncoming[i].type === "dino") {
+//     dataIncoming[i].style.backgroundColor = "orange";
+//   } else { dataIncoming[i].type === "cat"
+//   dataIncoming[i].style.backgroundColor = "lightblue";
+//   }
+//  }
+//  };
+//  stylingName(petData);
+  
+//printing to HTML from JS
 const printToDom = (toPrint, divId) => {
     document.getElementById(divId).innerHTML = toPrint
 }
 
+
+//filtering card data and specififying what to print
 const printCards = (cardData) => {
     let domString = ''
     for (let i = 0; i < cardData.length; i++) {
@@ -273,9 +291,12 @@ const printCards = (cardData) => {
         </div>
         `
     }
+    
     printToDom(domString, 'card-place')
   }
 
+
+//button click event specifics
 const buttonClick = (e) => {
     const itemType = e.target.id
     const genericArray = []
@@ -290,6 +311,8 @@ const buttonClick = (e) => {
         printCards(genericArray);
     }
   }
+
+//button clicks
 
 document.getElementById('all').addEventListener('click', buttonClick);
 document.getElementById('dog').addEventListener('click', buttonClick);
