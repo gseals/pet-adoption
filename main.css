@@ -90,3 +90,16 @@ img {
     margin: 1em;
     object-fit: cover;;
 }
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+    
+.purple {
+    background-color: purple;
+}
+

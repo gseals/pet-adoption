@@ -257,19 +257,6 @@ const petData = [
   ];
 
 
-// //applying js to css regarding pet type color
-// const stylingName = (dataIncoming) =>{
-//   for(let i =0; i<dataIncoming.length; i++){
-//     if (dataIncoming[i].type === "dog") {
-//     dataIncoming[i].style.backgroundColor = "green";
-//   } else if (dataIncoming[i].type === "dino") {
-//     dataIncoming[i].style.backgroundColor = "orange";
-//   } else { dataIncoming[i].type === "cat"
-//   dataIncoming[i].style.backgroundColor = "lightblue";
-//   }
-//  }
-//  };
-//  stylingName(petData);
   
 //printing to HTML from JS
 const printToDom = (toPrint, divId) => {
@@ -287,7 +274,7 @@ const printCards = (cardData) => {
             <img src=${cardData[i].imageUrl} alt='Image of ${cardData[i]['type']}' />
             <h3>${cardData[i].color}</h3>
             <h3>Special Skill: ${cardData[i]['specialSkill']}</h3>
-            <h3>${cardData[i].type}</h3>
+            <h3 class="species">${cardData[i].type}</h3>
         </div>
         `
     }
@@ -307,8 +294,10 @@ const buttonClick = (e) => {
     } 
     if (itemType === 'all') {
         printCards(petData)
+        stylingName(petData);
     } else {
         printCards(genericArray);
+        stylingName(genericArray);
     }
   }
 
@@ -318,3 +307,18 @@ document.getElementById('all').addEventListener('click', buttonClick);
 document.getElementById('dog').addEventListener('click', buttonClick);
 document.getElementById('cat').addEventListener('click', buttonClick);
 document.getElementById('dino').addEventListener('click', buttonClick);
+
+// //applying js to css regarding pet type color
+const stylingName = (dataIncoming) => {
+  const petColor = document.getElementsByClassName("species")
+  for(let i =0; i<dataIncoming.length; i++){
+    if (dataIncoming[i].type === "dog") {
+    petColor[i].classList.add("green");
+  } else if (dataIncoming[i].type === "dino") {
+    petColor[i].classList.add("orange");
+  } else if (dataIncoming[i].type === "cat") {
+    petColor[i].classList.add("purple");
+  }
+ }
+};
+ 
