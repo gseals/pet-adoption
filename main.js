@@ -175,7 +175,7 @@ const petData = [
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
       type: "dog",
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Toddy_Dog.jpg"
     },
     {
       name: "Spooky",
