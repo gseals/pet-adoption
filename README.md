@@ -1,24 +1,35 @@
-# Pet-adoption group work
+# Pet Adoption
 
-# Adoption Website
 
-## Setup
-* While in `~/workspace/foundations/exercises`, make a directory called `pet-adoption`
-* Create a github repository called `pet-adoption` and push up a README.md file
-* Create a setup branch and push up the usual stuff
+## Description
 
-## Requirements
+A webpage displaying pets that are up for adoption. Users have the ability to sort pets by type of pet, or they can see all available pets at once.
 
-- As a user, I want to see a listing of all available pets. Each pet should have a card that has all this data:
-```
-{
-Image: xxx
-Name: xxx
-Color: xxx
-Special Skill: xxx
-Type of Pet: xxx
-}
-```
-- As a user, I want to see 3 category(type) buttons printed at the top of the page. Each should be a different color. These can be hard-coded.
-- I want to be able to click one of the 3 buttons, then only the cards that are in the category(type) should show.
-- There should be some way for the user to unfilter the results (ie All Pets button).
+## Technologies Used
+
+* HTML5, CSS, and Javascript
+
+## Screenshot(s)
+
+All Pets
+![Main View]()
+
+Sorted by Cats
+![Main View]()
+
+Sorted by Dogs
+![Main View]()
+
+Sorted by Dinos
+![Main View]()
+
+## Instructions for how to run the project
+
+* Clone down this project from [Github](https://github.com/gseals/pet-adoption).
+* Install [http-server](https://www.npmjs.com/package/http-server) from npm.
+* At the root of this project, run the following command: `hs -p 8888`.
+* In your browser, navigate to `https://localhost:8888`;
+
+## Contributors
+
+* [Gabriel Seals](https://github.com/gseals)
