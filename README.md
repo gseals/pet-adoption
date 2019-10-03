@@ -12,16 +12,16 @@ A webpage displaying pets that are up for adoption. Users have the ability to so
 ## Screenshot(s)
 
 All Pets
-![Main View]()
+![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/mainview.png)
 
 Sorted by Cats
-![Main View]()
+![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/cats.png)
 
 Sorted by Dogs
-![Main View]()
+![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dogs.png)
 
 Sorted by Dinos
-![Main View]()
+![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dinos.png)
 
 ## Instructions for how to run the project
 
