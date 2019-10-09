@@ -15,13 +15,13 @@ All Pets
 ![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/mainview.png)
 
 Sorted by Cats
-![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/cats.png)
+![sorted by cats](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/cats.png)
 
 Sorted by Dogs
-![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dogs.png)
+![sorted by dogs](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dogs.png)
 
 Sorted by Dinos
-![Main View](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dinos.png)
+![sorted by dinos](https://raw.githubusercontent.com/gseals/pet-adoption/master/screenshots/dinos.png)
 
 ## Instructions for how to run the project
 
